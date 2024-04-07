@@ -4,7 +4,7 @@ from quiz_brain import QuizBrain
 from ui import QuizInterface
 
 question_bank = []
-print(question_data)
+# print(question_data)
 for question in question_data["results"]:
     
     question_text = question["question"]
